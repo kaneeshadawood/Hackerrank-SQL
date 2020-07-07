@@ -1,0 +1,14 @@
+Query the average population of all cities in CITY where District is California.
+
+Input Format
+The CITY table is described as follows: CITY.jpg
+
+# Solution:
+SELECT AVG(Population)
+FROM CITY
+WHERE District = 'California';
+
+
+# output
+113000.6667 
+
